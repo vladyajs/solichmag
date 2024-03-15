@@ -12,59 +12,54 @@
 ## База знаний
 
 
-## Структура приложения
 
-### src
-└── main
-    └── java
-        └── com
-            └── example
-                └── solichmag
-                    ├── configurations
-                    │   ├── MvcConfig.java
-                    │   └── SecurityConfig.java
-                    ├── controllers
-                    │   ├── AdminController.java
-                    │   ├── ImageController.java
-                    │   ├── ProductController.java
-                    │   └── UserController.java
-                    ├── models
-                    │   ├── enums
-                    │   │   └── Role.java
-                    │   ├── Image.java
-                    │   ├── Product.java
-                    │   └── User.java
-                    ├── repositories
-                    │   ├── ImageRepository.java
-                    │   ├── ProductRepository.java
-                    │   └── UserRepository.java
-                    ├── services
-                    │   ├── CustomUserDetailsService.java
-                    │   ├── ProductService.java
-                    │   └── UserService.java
-                    └── SolichmagApplication.java
-    └── resources
-        ├── static
-        │   ├── css
-        │   │   └── style.css
-        │   └── images
-        │       └── avatar.png
-        └── templates
-            └── blocks
-                ├── admin.ftlh
-                ├── login.ftlh
-                ├── my-products.ftlh
-                ├── product-info.ftlh
-                ├── products.ftlh
-                ├── profile.ftlh
-                ├── registration.ftlh
-                ├── user-edit.ftlh
-                └── user-info.ftlh
-        └── application.properties
-└── test
-    └── java
-        └── com
-            └── example
-                └── solichmag
-                    └── SolichmagApplicationTests.java
-```
+## Структура проекта
+
+### src/
+main/
+└── java/
+└── com/
+└── example/
+└── solichmag/
+├── configurations/
+│ ├── MvcConfig.java
+│ └── SecurityConfig.java
+├── controllers/
+│ ├── AdminController.java
+│ ├── ImageController.java
+│ ├── ProductController.java
+│ └── UserController.java
+├── models/
+│ ├── enums/
+│ │ └── Role.java
+│ ├── Image.java
+│ ├── Product.java
+│ └── User.java
+├── repositories/
+│ ├── ImageRepository.java
+│ ├── ProductRepository.java
+│ └── UserRepository.java
+├── services/
+│ ├── CustomUserDetailsService.java
+│ ├── ProductService.java
+│ └── UserService.java
+└── SolichmagApplication.java
+└── resources/
+├── static/
+│ ├── css/
+│ │ └── style.css
+│ └── images/
+│ └── avatar.png
+└── templates/
+└── blocks/
+├── admin.ftlh
+├── login.ftlh
+├── my-products.ftlh
+├── product-info.ftlh
+├── products.ftlh
+├── profile.ftlh
+├── registration.ftlh
+├── user-edit.ftlh
+└── user-info.ftlh
+└── application.properties
+
