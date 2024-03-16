@@ -10,7 +10,7 @@
 | Функциональный прототип                     | 14.03.2024  |   01.04.2024    |
 
 ## База знаний
-- [Требования]([https://docs.google.com/spreadsheets/d/1ar7k1M1Ny8dvJw3D6-R4sVilpewrDADMEtiyr-7OKU8/edit#gid=0](https://docs.google.com/spreadsheets/d/1tvhJSDmXYa9gwVW_y-B_M3q-AyE8Lopsjwd5xsfByek/edit?usp=sharing))
+- [Требования]([https://docs.google.com/spreadsheets/d/1ar7k1M1Ny8dvJw3D6-R4sVilpewrDADMEtiyr-7OKU8/edit#gid=0])
 
 
 ## Структура проекта
